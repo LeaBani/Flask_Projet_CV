@@ -24,6 +24,7 @@
                                 </div>
                                 <div class="nav_button_right">
                                 <a  class="btn btn-primary" href="#popup1">Add your Data</a>
+                                <a  class="btn btn-primary" href="#popup2">Contact me</a>
                                 <input type="button" onclick="printDiv()" class="btn btn-warning" value="Print Resume">
 								<a class="btn btn-info" href="resume_template">More Resume Templates</a>
                             </div>
@@ -153,6 +154,25 @@
                 </div>
             </div>
        </section>
+
+	    <form id="contact-form" action="/ma-page-de-traitement" method="post">
+		  <ul>
+		    <li>
+		      <label for="name">Nom&nbsp;:</label>
+		      <input type="text" id="name" name="user_name" />
+		    </li>
+		    <li>
+		      <label for="mail">E-mail&nbsp;:</label>
+		      <input type="email" id="mail" name="user_mail" />
+		    </li>
+		    <li>
+		      <label for="msg">Message&nbsp;:</label>
+		      <textarea id="msg" name="user_message"></textarea>
+		    </li>
+		  </ul>
+		</form>
+
+	    
 
 
        <div id="popup1" class="overlay">
